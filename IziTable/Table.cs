@@ -55,6 +55,10 @@ namespace IziTable
             this.style = style;
             return this;
         }
+        public override string ToString()
+        {
+            return GenerateTable().ToString();
+        }
 
         public StringBuilder GenerateTable()
         {
@@ -67,7 +71,7 @@ namespace IziTable
             return content;
         }
 
-        private static StringBuilder renderStyle(ICssStyle style) => new StringBuilder($"<style  type=\"text/css\">{style.GetStyle()}</style>");
+        private static StringBuilder renderStyle(ICssStyle style) => new StringBuilder($"<style type=\"text/css\">{style.GetStyle()}</style>");
 
 
         protected virtual StringBuilder renderTable(List<string> headers, List<string[]> rows)
