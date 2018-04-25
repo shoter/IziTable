@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziTable", "IziTable\IziTable.csproj", "{4BC0D2D0-B303-4568-B764-1315FB709F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziTable.Tests", "IziTable.Tests\IziTable.Tests.csproj", "{DFB8B4EE-F52C-40FD-B2CC-29748F0DEC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC0D2D0-B303-4568-B764-1315FB709F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC0D2D0-B303-4568-B764-1315FB709F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC0D2D0-B303-4568-B764-1315FB709F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC0D2D0-B303-4568-B764-1315FB709F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB8B4EE-F52C-40FD-B2CC-29748F0DEC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB8B4EE-F52C-40FD-B2CC-29748F0DEC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB8B4EE-F52C-40FD-B2CC-29748F0DEC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8B4EE-F52C-40FD-B2CC-29748F0DEC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {880B66A9-6547-4B27-8068-EF8CD80D9E9A}
+	EndGlobalSection
+EndGlobal
